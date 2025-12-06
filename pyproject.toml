@@ -7,10 +7,14 @@ requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "ipython>=9.8.0",
+    "nest-asyncio>=1.6.0",
     "openai>=2.8.1",
+    "playwright>=1.56.0",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
     "selenium>=4.38.0",
+    "tiktoken>=0.12.0",
+    "webdriver-manager>=4.0.2",
 ]
 
 [dependency-groups]
